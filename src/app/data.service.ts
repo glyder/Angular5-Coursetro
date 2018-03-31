@@ -22,4 +22,8 @@ export class DataService {
     this.goals.next(goal);
   }
 
+  add(a, b) {
+    return a + b;
+  }
+
 }
