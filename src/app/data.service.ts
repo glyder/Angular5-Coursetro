@@ -10,7 +10,7 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 export class DataService {
 
   // initial goal through goals as a BehaviorSubject, and then define a goal property as an observable.
-  private goals = new BehaviorSubject<any>(['The initial goal', 'Another silly life goal']);
+  private goals = new BehaviorSubject<any>(['Go for run', 'Catch train to see squid', 'Give him a chop']);
   goal = this.goals.asObservable();
 
 
